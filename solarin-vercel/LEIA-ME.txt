@@ -1,0 +1,26 @@
+SOLARIN — PACOTE PARA VERCEL
+
+1. Extraia o ZIP. Ele contém vercel.json e a pasta public na raiz.
+2. Coloque TODO esse conteúdo na pasta do projeto conectado à Vercel.
+   Não envie somente index.html e não mova os arquivos de assets.
+3. Na Vercel, Root Directory deve apontar para a pasta que contém vercel.json.
+   Framework Preset: Other. Build Command: vazio. Output Directory: public.
+4. Faça uma nova implantação (deploy).
+
+ESTRUTURA
+vercel.json
+public/index.html
+public/assets/css/styles.css
+public/assets/js/main.js
+public/assets/images/hero.webp
+public/assets/images/clientes.webp
+
+VERIFICAÇÃO
+Após publicar, /assets/css/styles.css deve abrir o texto dos estilos,
+e /assets/images/hero.webp deve abrir a imagem dos painéis solares.
+Se um desses endereços mostrar erro ou a própria página HTML, confira os
+arquivos publicados, a pasta raiz e as regras de redirecionamento existentes.
+
+Também é possível abrir public/index.html localmente.
+O design e as imagens otimizadas foram preservados.
+WhatsApp: número oficial ainda não configurado; escolha de destinatário manual.
